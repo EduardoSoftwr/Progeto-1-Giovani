@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+}
+header {
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+header.rolagem{
+    background-color: #fff;
+    padding: 20px 4%;
+    z-index: 9999;
+}
+header.rolagem a{
+    color: #FE775A;
+}
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+html{
+    height: 500vh;
+}
+
+.container{
+    max-width: 1680px;
+    margin: auto;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.flex{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header i{
+    font-size: 30px;
+    color: #fff;
+}
+
+header ul{
+    list-style-type:none;
+    align-items: center;
+    
+}
+
+header ul li{
+    display:inline-block;
+    margin: 0 75px
+}
+
+header ul li a{
+    color: #ffff;
+    text-decoration: none;
+}
+
+.btn-sair {
+    background-color: #FE775A;
+    color: #000;
+    border: 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-sair:hover {
+    transition: all .3s;
+    box-shadow: 5px 5px 4px #CCC;
+    opacity: .9;}
+
+.btn-sair:focus {
+    outline: 0;
+}
+
+
+.banner{
+    height:100vh;
+    background-image: url('../imagens/bebidona.jpg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1{
+    font-size: 4em;
+    color: #000000;
+}
+.banner h1 span{
+    color: #fff
+}
+
+.mapBox{
+    position: relative;
+    width: 600px;
+    height: 500px;
+    
+    flex: 1;
+}
+
+.content {
+    flex-grow: 1;
+    margin: 20px;
+}
+
+.flex-container{
+    display: flex;
+    margin: 20px;
+}

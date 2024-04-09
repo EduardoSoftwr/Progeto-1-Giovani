@@ -1,0 +1,80 @@
+.content-text {
+    width: 1000px;
+    height: 100vh;
+    background: #fff;
+    box-shadow: 0px 0px 10px #CCC;
+    margin: 0 auto;
+}
+
+.box-form {
+    border-bottom: 1px solid #DDD;
+    padding: 15px 25px;
+    background: #F5F5F5;
+    overflow: auto;
+}
+
+.box-form form button,
+.box-form form textarea {
+    border: 1px solid #ddd;
+    margin-top: 4px;
+    color: #666;
+    border-radius: 3px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+.box-form form button {
+    width: auto;
+    height: 50px;
+}
+
+.box-form form textarea {
+    width: calc(100% - 20px);
+    height: 200px;
+    min-height: 100px;
+    resize: vertical;
+}
+
+.box-form form button:focus,
+.box-form form textarea:focus {
+    outline: 0;
+}
+
+.box-form form button.btn-sub {
+    background: #FE775A;
+    color: #000;
+    cursor: pointer;
+    border: 0;
+    border-radius: 3px;
+    width: 80px;
+    height: 50px;
+
+}
+
+.box-form form button.btn-sub:hover {
+    transition: all .3s;
+    box-shadow: 5px 5px 4px #CCC;
+    opacity: .9;
+}
+
+.box-form h1 {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.box-form label {
+    font-size: 11px;
+    opacity: .7;
+}
+.b_comm {
+	padding: 30px;
+    width: 100%;
+}
+
+.b_comm:nth-child(even){
+	background-color: #F5F5F5;
+}
+
+.b_comm:nth-child(odd){
+	background-color: #DDD;
+}

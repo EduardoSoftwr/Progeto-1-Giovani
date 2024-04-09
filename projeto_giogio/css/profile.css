@@ -1,0 +1,81 @@
+body {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.profile-box {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #212529;
+    border-color: #343a40;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-box h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.profile-box p {
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.profile-box form {
+    margin-top: 20px;
+}
+
+.profile-box form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ccc;
+}
+
+.profile-box form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #343a40;
+    color: #fff;
+    border-color: #6c757d;
+}
+
+.profile-box form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.profile-box form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.btn-home {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn-home:hover {
+    background-color: #0056b3;
+    color: #fff;
+    text-decoration: none;
+}
